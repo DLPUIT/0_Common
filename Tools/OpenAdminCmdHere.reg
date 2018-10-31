@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
+"Icon"="c:\\windows\\system32\\cmd.exe"
+"MUIVerb"="Open command (as Admin) here"
+"NoWorkingDirectory"=""
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+[HKEY_CLASSES_ROOT\folder\shell\runas]
+"Icon"="c:\\windows\\system32\\cmd.exe"
+"MUIVerb"="Open command (as Admin) here"
+"NoWorkingDirectory"=""
+[HKEY_CLASSES_ROOT\folder\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
